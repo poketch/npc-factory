@@ -1,0 +1,36 @@
+{
+	"id": "npc-factory",
+	"name": "npc-factory",
+	"title": "NPC Factory",
+	"description": "Small DM-Utility Module focussed on streamlining the process of batch making NPCs",
+	"version": "0.1.0",
+	"author": "Poketch",
+	"authors": [{
+		"name": "Poketch",
+		"url": "https://github.com/poketch"
+	}],
+	"esmodules": ["npc-factory.js"],
+	"relationships": 
+	{
+		"systems": [
+			{
+				"id": "dnd5e",
+				"type": "system"
+			}
+		]
+	},
+	"minimumCoreVersion": "9.238",
+	"compatibleCoreVersion": "10",
+	"compatibility": {
+		"minimum": "9.238",
+		"verified": "10"
+	},
+	"url": "https://github.com/poketch/npc-factory",
+	"bugs": "https://github.com/poketch/npc-factory/issues",
+	"flags": {
+		"allowBugReporter": true
+	},
+	"languages": [
+		{ "lang": "en", "name": "English", "path": "lang/en.json" }
+	]
+}
